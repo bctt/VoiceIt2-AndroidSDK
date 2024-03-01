@@ -819,6 +819,7 @@ public class VoiceItAPI2 {
         Bundle bundle = new Bundle();
         bundle.putString("apiKey", this.apiKey);
         bundle.putString("apiToken", this.apiToken);
+        bundle.putString("baseUrl", this.BASE_URL);
         bundle.putInt("voiceitThemeColor", this.voiceitThemeColor);
         bundle.putString("userId", userId);
         bundle.putString("notificationURL", this.notificationURL);
